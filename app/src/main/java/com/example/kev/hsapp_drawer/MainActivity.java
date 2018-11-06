@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        webView = (WebView) findViewById(R.id.webview);
+        webView = findViewById(R.id.webview);  //webview gelöscht da redundant 
 
 
     }
@@ -64,3 +64,4 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 }
 
+//Git Hub Push Test
